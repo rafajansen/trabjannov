@@ -1,3 +1,23 @@
 A C# é uma linguagem de programação simples e de propósito geral que auxilia no desenvolvimento de princípios de engenharia de software. É utilizada para escrever aplicativos para sistemas hospedados e incorporados. 
 Já a C++ é de uso geral criada como uma extensão da linguagem C para programação de sistemas e softwares incorporados, com recursos limitados e grandes sistemas. É bastante utilizada em aplicativos de desktop, videogames e servidores. 
 A linguagem C é voltada para programação estruturada e instruções de máquinas típicas. É bastante utilizada em aplicativos previamente codificados em linguagem assembly. Apesar de seus recursos de baixo nível, a linguagem foi projetada para incentivar a programação entre plataformas.https://www.napratica.org.br/linguagem-de-programacao/
+LINGUAGEM C
+#include <stdio.h> 
+int main() {
+printf("Olá, mundo!\n");
+ return 0;
+}
+LINGUAGEM C++
+#include <iostream>
+int main() {
+ std::cout << "Olá, mundo!" << std::endl;
+return 0;
+LINGUAGEM C#
+using System;
+class Program
+{
+static void Main()
+    {
+Console.WriteLine("Olá, mundo!");
+    }
+}
